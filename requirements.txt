@@ -1,0 +1,9 @@
+pydantic==1.9.0
+pytz==2022.1
+Flask==2.0.3
+google-auth==2.6.2
+requests==2.27.1
+Flask-Cors==3.0.10
+PyJWT==2.3.0
+CacheControl==0.12.10
+waitress==2.1.1
