@@ -7,3 +7,6 @@ Flask-Cors==3.0.10
 PyJWT==2.3.0
 CacheControl==0.12.10
 waitress==2.1.1
+
+# uncomment below to support Azure Application Insights
+#opencensus-ext-azure==1.1.0
