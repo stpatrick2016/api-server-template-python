@@ -19,9 +19,7 @@ def root_stub():
 
 
 def validate_user(username: str) -> bool:
-    return (
-        True if username in ["saint.patricius@gmail.com", "netkka@gmail.com"] else False
-    )
+    return False
 
 
 if __name__ == "__main__":
