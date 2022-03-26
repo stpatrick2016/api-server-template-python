@@ -9,6 +9,7 @@ Templates for barebone API server in Python, which can be copied and used as a s
 * Protecting Flask views
 * [Logging](#logging)
   * Application insights
+* [Base model](#base-model)
 
 
 
@@ -32,3 +33,6 @@ logger = get_logger(__name__)
 To log into Microsoft's [Application Insights](https://azure.microsoft.com/en-us/services/monitor/):
 1. Uncomment `opencensus-ext-azure==1.1.0` in the requirements.txt file
 2. Supply the connection string as `APPLICATIONINSIGHTS_CONNECTION_STRING` environment variable
+
+## Base model
+A classes `ApiBaseModel` and `ApiBaseModelWithId` available with common helper methods and properties such as ID generation, serialization and deserialization
